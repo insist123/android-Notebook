@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.notebook.MainActivity" >
+
+    <item
+        android:id="@+id/ad_list"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/ad"/>
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/list"/>
+    <item
+        android:id="@+id/change"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/change"/>
+
+</menu>

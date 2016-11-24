@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notebook"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ws.notebook.main.Admin"
+            android:label="@string/admin" />
+        <activity
+            android:name="com.ws.notebook.main.Aty_complie"
+            android:label="@string/compile" >
+        </activity>
+        <activity
+            android:name="com.ws.notebook.main.Aty_res"
+            android:label="@string/resname" >
+        </activity>
+        <activity
+            android:name="com.ws.notebook.main.aty_add"
+            android:label="@string/addname" >
+        </activity>
+        <activity
+            android:name="com.ws.notebook.main.MainUI"
+            android:label="@string/listname" >
+        </activity>
+        <activity
+            android:name="com.ws.notebook.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
